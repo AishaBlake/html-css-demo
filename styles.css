@@ -1,0 +1,23 @@
+ul, ol {
+    color: rebeccapurple;
+    background-color: salmon;
+    list-style-type: none;
+}
+
+ul li {
+    background-color: lightseagreen;
+    width: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* body {
+    background-color: lightsalmon;
+} */
+
+.orange {
+    color: orange;
+}
+
+#special {
+    color: pink;
+}
