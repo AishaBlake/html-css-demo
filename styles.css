@@ -1,3 +1,7 @@
+/* * {
+    border: tomato 3px double;
+}
+ */
 ul, ol {
     color: rebeccapurple;
     background-color: salmon;
@@ -7,6 +11,8 @@ ul, ol {
 ul li {
     background-color: lightseagreen;
     width: 50%;
+    padding: 10px 40px;
+    height: 100px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -20,4 +26,50 @@ ul li {
 
 #special {
     color: pink;
+}
+
+header {
+    margin-bottom: 4rem;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main {
+    background-color: plum;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banana {
+    background-color: yellow;
+}
+
+a:link  {
+    color:#FF0000;
+} /* unvisited link */
+a:visited {
+    color:#00FF00;
+} /* visited link */
+a:hover, a:focus {
+    color:#FF00FF; 
+    font-size: 5rem;
+} /* mouse over or select with keyboard*/
+a:active {
+    color:#0000FF;
+} /* selected link */
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    background-color: rgba(0, 0, 0, .5);
 }
